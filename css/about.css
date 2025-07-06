@@ -1,0 +1,61 @@
+.sobre {
+  padding: 2rem;
+  background-color: #fff5f7;
+}
+strong{
+  color: #FFA314;
+}
+.sobre h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color:#650F02;
+}
+
+.conteudo-sobre {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto-sobre {
+  flex: 1 1 300px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.texto-sobre p {
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.imagem-sobre {
+  flex: 1 1 200px;
+  text-align: center;
+}
+
+.imagem-sobre img {
+  max-width: 300px;
+  border-radius: 5px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+
+
+}
+.imagem-sobre :hover{
+  transform:  scale(1.2);
+}
+
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .conteudo-sobre {
+    flex-direction: column;
+  }
+
+  .sobre h2 {
+    font-size: 1.5rem;
+  }
+}

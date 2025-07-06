@@ -1,0 +1,194 @@
+.cardapio {
+  padding: 2rem;
+  background-color: #fff9f9;
+  text-align: center;
+}
+
+.grid-produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.item-produto {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.item-produto:hover {
+  transform: scale(1.03);
+}
+
+.item-produto img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.preco {
+  color: #FFA314;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+.description{
+  font-weight: 400;
+  font-family: 'Times New Roman', Times, serif monospace;
+}
+
+.btn-ver {
+  background-color: #FFA314;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.btn-ver:hover{
+  background-color: #650F02;
+  transform:  scale(1);
+   transition: all 0.3s desa; 
+}
+
+
+
+/* Style DO  MOLDAL DE APRESENTAÇÂO  */
+.modal {
+    display: none;  
+    position: fixed; 
+    z-index: 1000; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.783); 
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    width: 95%;
+    max-width: 500px; 
+    text-align: center;
+    position: relative; 
+}
+.modal-prod{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+
+}
+.modal-content > img{
+  border-radius: 12px;
+  max-width: 250px;
+}
+#closeModalBtn{
+  background-color: #650F02;
+  color: #eee;
+  width: 100px;
+  height: 30px;
+  border-radius: 4px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+#closeModalBtn:hover{
+  background-color: #FFA314;
+}
+
+
+.modal.is-visible {
+    display: flex;
+}
+
+.modal-content h2 {
+    margin-top: 0;
+    color: #333;
+    font-weight: bolder;
+}
+
+.modal-content p {
+    color: #666;
+    line-height: 1.5;
+}
+/* STYLE DO MODAL EM VERSSÔES MENORES DE TELA */
+@media (max-width: 768px) {
+  .modal-content {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+  }
+
+  .modal-content{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+}
+
+/* Estilos para a seção de filtro de categorias */
+#category-filter-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff9f9;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+}
+
+#category-filter-section h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.category-buttons {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 10px; 
+}
+
+.filter-btn {
+    background-color: #e0e0e0;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 10px 18px;
+    border-radius: 20px; /* Botões mais arredondados */
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    white-space: nowrap; /* Evita que o texto quebre a linha dentro do botão */
+}
+
+.filter-btn:hover {
+    background-color: #d0d0d0;
+    border-color: #bbb;
+}
+
+.filter-btn.active {
+    background-color: #FFA314; 
+    color: white;
+    border-color: #FFA314;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Responsividade básica para os botões */
+@media (max-width: 600px) {
+    .filter-btn {
+        padding: 8px 15px;
+        font-size: 0.85rem;
+    }
+}
