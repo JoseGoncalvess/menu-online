@@ -1,6 +1,6 @@
 // função usada para carregaar os dados do produto
-async function loadData() {
-  return await fetch('../assets/data.json')
+function loadData() {
+  return fetch('../assets/data.json')
     .then(response => {
       if (!response.ok) {
         throw new Error('Erro ao carregar o JSON: ' + response.statusText)
