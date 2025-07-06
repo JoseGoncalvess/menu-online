@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Pastel de Forno",
-    "img": "https://www.bongusto.ind.br/wp-content/uploads/2023/06/FRAPE-CAPUCCINO14.jpg",
+    "img": "../assets/img/pastel_forno.png",
     "description": "Um delicioso lanche especial, perfeito para sua fome.",
     "price": "R$ 7.00",
     "pricePromotion": "",
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "name": "Empada De Frango",
-    "img": "https://www.bongusto.ind.br/wp-content/uploads/2023/06/FRAPE-CAPUCCINO14.jpg",
+    "img": "../assets/img/empada_frango.png",
     "description": "Nosso lanche clássico, ideal para um rápido sabor.",
     "price": "R$ 6.00",
     "pricePromotion": "",
@@ -41,22 +41,22 @@
     "img": "https://www.bongusto.ind.br/wp-content/uploads/2023/06/FRAPE-CAPUCCINO14.jpg",
     "description": "Unidade de cápsula de café premium.",
     "price": "R$ 6.00",
-    "pricePromotion": "R$ 5.99",
+    "pricePromotion": "",
     "category": "Cafés Especiais"
   },
   {
     "id": 6,
     "name": "Capuccino P",
-    "img": "https://www.bongusto.ind.br/wp-content/uploads/2023/06/FRAPE-CAPUCCINO14.jpg",
+    "img": "../assets/img/capuccino.png",
     "description": "Nosso Cappuccino tradicional, tamanho pequeno.",
     "price": "R$ 6.00",
-    "pricePromotion": "",
+    "pricePromotion": "R$6.00",
     "category": "Cafés Quentes"
   },
   {
     "id": 7,
     "name": "Capuccino M",
-    "img": "https://www.bongusto.ind.br/wp-content/uploads/2023/06/FRAPE-CAPUCCINO14.jpg",
+    "img": "../assets/img/capuccino.png",
     "description": "Nosso Cappuccino tradicional, tamanho médio.",
     "price": "R$ 8.00",
     "pricePromotion": "",
@@ -68,7 +68,7 @@
     "img": "https://www.bongusto.ind.br/wp-content/uploads/2023/06/FRAPE-CAPUCCINO14.jpg",
     "description": "Cappuccino servido em taça, uma experiência elegante.",
     "price": "R$ 12.00",
-    "pricePromotion": "R$ 11.00",
+    "pricePromotion": "",
     "category": "Cafés Quentes"
   },
   {
@@ -83,7 +83,7 @@
   {
     "id": 10,
     "name": "Café Coado P",
-    "img": "https://www.bongusto.ind.br/wp-content/uploads/2023/06/FRAPE-CAPUCCINO14.jpg",
+    "img": "../assets/img/cafe_coado.png",
     "description": "Café coado fresco, tamanho pequeno.",
     "price": "R$ 3.00",
     "pricePromotion": "",
@@ -92,7 +92,7 @@
   {
     "id": 11,
     "name": "Café Coado c/ leite P",
-    "img": "https://www.bongusto.ind.br/wp-content/uploads/2023/06/FRAPE-CAPUCCINO14.jpg",
+    "img": "../assets/img/cafe_coado.png",
     "description": "Café coado com um toque de leite, tamanho pequeno.",
     "price": "R$ 4.00",
     "pricePromotion": "",
@@ -101,7 +101,7 @@
   {
     "id": 12,
     "name": "Café Coado M",
-    "img": "https://www.bongusto.ind.br/wp-content/uploads/2023/06/FRAPE-CAPUCCINO14.jpg",
+    "img": "../assets/img/cafe_coado.png",
     "description": "Café coado fresco, tamanho médio.",
     "price": "R$ 7.00",
     "pricePromotion": "",
@@ -119,7 +119,7 @@
   {
     "id": 14,
     "name": "Café Exp. P",
-    "img": "https://www.bongusto.ind.br/wp-content/uploads/2023/06/FRAPE-CAPUCCINO14.jpg",
+    "img": "../assets/img/expresso.png",
     "description": "Espresso intenso, tamanho pequeno.",
     "price": "R$ 4.00",
     "pricePromotion": "",
@@ -137,7 +137,7 @@
   {
     "id": 16,
     "name": "Café Exp. duplo M",
-    "img": "https://www.bongusto.ind.br/wp-content/uploads/2023/06/FRAPE-CAPUCCINO14.jpg",
+    "img": "../assets/img/expresso.png",
     "description": "Espresso duplo para quem ama café, tamanho médio.",
     "price": "R$ 7.00",
     "pricePromotion": "",
@@ -164,7 +164,7 @@
   {
     "id": 19,
     "name": "Prensa Francesa 300ml",
-    "img": "https://www.bongusto.ind.br/wp-content/uploads/2023/06/FRAPE-CAPUCCINO14.jpg",
+    "img": "../assets/img/prenssa_francesa.png",
     "description": "Café coado na prensa francesa, 300ml.",
     "price": "R$ 9.00",
     "pricePromotion": "",
@@ -173,7 +173,7 @@
   {
     "id": 20,
     "name": "Prensa Francesa 600ml",
-    "img": "https://www.bongusto.ind.br/wp-content/uploads/2023/06/FRAPE-CAPUCCINO14.jpg",
+    "img": "../assets/img/prenssa_francesa.png",
     "description": "Café coado na prensa francesa, 600ml, ideal para compartilhar.",
     "price": "R$ 17.00",
     "pricePromotion": "R$ 15.00",
@@ -191,7 +191,7 @@
   {
     "id": 22,
     "name": "Mocha",
-    "img": "https://www.bongusto.ind.br/wp-content/uploads/2023/06/FRAPE-CAPUCCINO14.jpg",
+    "img": "../assets/img/mocha.png",
     "description": "Mocha especial com toque único da casa.",
     "price": "R$ 13.00",
     "pricePromotion": "",
@@ -200,7 +200,7 @@
   {
     "id": 23,
     "name": "Capuccino",
-    "img": "https://www.bongusto.ind.br/wp-content/uploads/2023/06/FRAPE-CAPUCCINO14.jpg",
+    "img": "../assets/img/capuccino.png",
     "description": "Cappuccino com ingredientes e preparo diferenciados.",
     "price": "R$ 11.00",
     "pricePromotion": "",
@@ -209,7 +209,7 @@
   {
     "id": 24,
     "name": "Machiato",
-    "img": "https://www.bongusto.ind.br/wp-content/uploads/2023/06/FRAPE-CAPUCCINO14.jpg",
+    "img": "../assets/img/machiato.png",
     "description": "Espresso macchiato, com uma mancha de espuma de leite.",
     "price": "R$ 12.00",
     "pricePromotion": "",
@@ -218,7 +218,7 @@
   {
     "id": 25,
     "name": "Caramel Latte",
-    "img": "https://www.bongusto.ind.br/wp-content/uploads/2023/06/FRAPE-CAPUCCINO14.jpg",
+    "img": "../assets/img/caramel_latte.png",
     "description": "Latte cremoso com calda de caramelo.",
     "price": "R$ 13.00",
     "pricePromotion": "",
@@ -227,7 +227,7 @@
   {
     "id": 26,
     "name": "Cap. Gelado",
-    "img": "https://www.bongusto.ind.br/wp-content/uploads/2023/06/FRAPE-CAPUCCINO14.jpg",
+    "img": "../assets/img/cafe_gelado.png",
     "description": "Cappuccino gelado refrescante para os dias quentes.",
     "price": "R$ 12.00",
     "pricePromotion": "",
@@ -236,7 +236,7 @@
   {
     "id": 27,
     "name": "Frapuccino",
-    "img": "https://www.bongusto.ind.br/wp-content/uploads/2023/06/FRAPE-CAPUCCINO14.jpg",
+    "img": "../assets/img/frapuccino.png",
     "description": "Frapuccino clássico, batido com gelo e saboroso.",
     "price": "R$ 13.00",
     "pricePromotion": "",
@@ -245,7 +245,7 @@
   {
     "id": 28,
     "name": "Frap. Turbinado",
-    "img": "https://www.bongusto.ind.br/wp-content/uploads/2023/06/FRAPE-CAPUCCINO14.jpg",
+    "img": "../assets/img/frapuccino.png",
     "description": "Frapuccino com um toque extra de sabor e energia.",
     "price": "R$ 15.00",
     "pricePromotion": "",
@@ -254,7 +254,7 @@
   {
     "id": 29,
     "name": "Tônico",
-    "img": "https://www.bongusto.ind.br/wp-content/uploads/2023/06/FRAPE-CAPUCCINO14.jpg",
+    "img": "../assets/img/cafe_tonico.png",
     "description": "Bebida tônica refrescante para revigorar.",
     "price": "R$ 12.00",
     "pricePromotion": "",
@@ -281,7 +281,7 @@
   {
     "id": 32,
     "name": "Soda Italian",
-    "img": "https://www.bongusto.ind.br/wp-content/uploads/2023/06/FRAPE-CAPUCCINO14.jpg",
+    "img": "../assets/img/soda_italiana.png",
     "description": "Soda italiana refrescante, com sabores variados.",
     "price": "R$ 10.00",
     "pricePromotion": "",
@@ -290,7 +290,7 @@
   {
     "id": 33,
     "name": "Chá Quente",
-    "img": "https://www.bongusto.ind.br/wp-content/uploads/2023/06/FRAPE-CAPUCCINO14.jpg",
+    "img": "../assets/img/cha_quente.png",
     "description": "Chá quente aromático, perfeito para relaxar.",
     "price": "R$ 4.00",
     "pricePromotion": "",
@@ -299,7 +299,7 @@
   {
     "id": 34,
     "name": "Chá Frio",
-    "img": "https://www.bongusto.ind.br/wp-content/uploads/2023/06/FRAPE-CAPUCCINO14.jpg",
+    "img": "../assets/img/cha_gelado.png",
     "description": "Chá gelado refrescante, ideal para qualquer hora.",
     "price": "R$ 8.00",
     "pricePromotion": "",
@@ -308,7 +308,7 @@
   {
     "id": 35,
     "name": "Suco",
-    "img": "https://www.bongusto.ind.br/wp-content/uploads/2023/06/FRAPE-CAPUCCINO14.jpg",
+    "img": "../assets/img/suco.png",
     "description": "Suco natural fresco do dia, diversas frutas.",
     "price": "R$ 5.00",
     "pricePromotion": "",
@@ -317,7 +317,7 @@
   {
     "id": 36,
     "name": "Refrigerante",
-    "img": "https://www.bongusto.ind.br/wp-content/uploads/2023/06/FRAPE-CAPUCCINO14.jpg",
+    "img": "../assets/img/refrigerantes.png",
     "description": "Refrigerante de sua escolha.",
     "price": "R$ 5.00",
     "pricePromotion": "",
@@ -326,7 +326,7 @@
   {
     "id": 37,
     "name": "Água Mineral",
-    "img": "https://www.bongusto.ind.br/wp-content/uploads/2023/06/FRAPE-CAPUCCINO14.jpg",
+    "img": "../assets/img/agua_mineral.png",
     "description": "Água mineral pura e refrescante.",
     "price": "R$ 2.00",
     "pricePromotion": "",
@@ -335,10 +335,19 @@
   {
     "id": 38,
     "name": "Água Gás",
-    "img": "https://www.bongusto.ind.br/wp-content/uploads/2023/06/FRAPE-CAPUCCINO14.jpg",
+    "img": "../assets/img/agua_com_gas.png",
     "description": "Água com gás para refrescar seu dia.",
     "price": "R$ 4.00",
     "pricePromotion": "",
+    "category": "Outras Bebidas"
+  },
+    {
+    "id": 39,
+    "name": "Chocolate Quente",
+    "img": "../assets/img/chocolate_quente.png",
+    "description": "Chocolate quente cremoso, servido em copo",
+    "price": "R$ 15.00",
+    "pricePromotion": "R$ 11.00",
     "category": "Outras Bebidas"
   }
 ]
