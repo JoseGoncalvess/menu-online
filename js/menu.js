@@ -3,7 +3,9 @@ const closeModalBtn = document.getElementById('closeModalBtn')
 const mySimpleModal = document.getElementById('mySimpleModal')
 // função usada para carregaar os dados do produto
 function loadData() {
-  return fetch('../assets/data.json')
+  return fetch(
+    'https://raw.githubusercontent.com/JoseGoncalvess/menu-online/refs/heads/main/assets/data.json'
+  )
     .then(response => {
       if (!response.ok) {
         throw new Error('Erro ao carregar o JSON: ' + response.statusText)
