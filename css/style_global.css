@@ -74,7 +74,10 @@ footer {
   padding: 2rem;
   background-color: #ffa51478;
 }
-
+.apresentacao strong{
+  color: #650F02;
+  font-size: 1.5rem;
+}
 .produtos-destaque {
   display: flex;
   flex-wrap: wrap;

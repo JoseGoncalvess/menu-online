@@ -96,6 +96,13 @@ async function showProdDetatil(idProd) {
         </div>`
 
   openModal()
+
+  const closeBtn = document.getElementById('closeModalBtn')
+  if (closeBtn) {
+    closeBtn.addEventListener('click', () => {
+      closeModal()
+    })
+  }
 }
 
 function openModal() {
@@ -120,9 +127,6 @@ document.addEventListener('DOMContentLoaded', () => {
       if (event.target === mySimpleModal) {
         closeModal()
       }
-    })
-    closeModalBtn.addEventListener('click', () => {
-      closeModal()
     })
 
     document.addEventListener('keydown', event => {
